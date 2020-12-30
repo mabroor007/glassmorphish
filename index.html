@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass</title>
+  </head>
+  <style>
+    body {
+      background-image: url("./wp.jpg");
+      background-size: cover;
+    }
+    .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 400px;
+      background-color: rgba(255, 255, 255, 0.116);
+      border-radius: 25px;
+      border: solid 9px transparent;
+      background-clip: padding-box;
+      backdrop-filter: blur(15px);
+    }
+    h3 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 10px 30px;
+      color: white;
+    }
+
+    /* @keyframes mov {
+      0% {
+        backdrop-filter: blur(0px);
+      }
+      50% {
+        backdrop-filter: blur(15px);
+      }
+      100% {
+        backdrop-filter: blur(0px);
+      }
+    } */
+  </style>
+  <body>
+    <div class="card">
+      <h3>Hello how are you?</h3>
+    </div>
+  </body>
+</html>
